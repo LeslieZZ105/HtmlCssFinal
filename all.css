@@ -55,7 +55,13 @@ table {
 }
 
 /* header begin*/
-.header li{
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}    
+.headerItem li{
     width:100%;
     margin-top:24px;
     margin-bottom:24px;
