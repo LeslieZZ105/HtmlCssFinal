@@ -154,26 +154,22 @@ div{
     margin-right: 8px;
 }
 
-.footer{
+
+.footer .email{
     display: flex;
-    background-color: gray;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 16px;
-    padding-bottom: 12px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
 }
-
-.footer img {
-    height: 32px;
-    width: auto;
-    padding-left: 16px;
-    padding-top: 8px;
-
-}.footer p {
-    color: darkslategray;
-    line-height: 1.5;
-    padding-bottom: 8px;
+.socialM{
+    display: flex;
+    gap: 16px;
 }
-.footer p span {
-    color: rgb(235, 188, 231);
+.email a{
+    font-size: 32px;    
+    color:#000000;
+}
+.copyright {
+    margin: 24px 0;
+    text-align: center;
 }
