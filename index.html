@@ -2,65 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>個人品牌網站</title>
-    <link rel="stylesheet" href="HtmlCssFinal/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>最終任務-個人品牌</title>
+    <link rel="stylesheet" href="all.css">
 </head>
 <body>
     <div class="wrap">
-
         <div class="header">
-            <ul class="headerItem">
-                <li><a href="#">首頁</a></li>
-                <li><a href="#">部落格</a></li>
-            </ul>
-        </div>
-
-        
+            <ul>
+                <li><a class="headerhome" href="#">首頁</a></li>
+                <li><a class="headerblog" href="#">部落格</a></li>
+            </ul>           
+        </div><!--headerEND-->
 
         <div class="hero">
-            <div class="heroLeft">
+            <div class="heroL">
                 <img  src="images/Hero Section.png">  
             </div>                      
-            <div class="heroRight">
-                <p class="herotTitle">BLOG</p>
-                <p class="heroDecribe">前端工程師&職涯諮詢師</p>
-            </div>
-        </div><!--hero END--> 
-
-            
-        <div class="AboutSection">
-                <div class="left">
-                    <img src="images/About Section.png" alt="前端開發職涯成長最新文章">
-                </div>
-                <div class="right">
-                    <time class="time">2024/10/21</time>
-                    <div>
-                        <div>
-                            <a class="hashTag" href="#">#前端開發</a>
-                            <a class="hashTag" href="#">#職涯成長</a>
-                            <a class="hashTagSP" href="#">最新文章</a>
-                            <h2 class="title">自學前端不用怕：從零開始的三大關鍵</h2>
-                            <p>嗨，我是 Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得， 也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」
-其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。 希望能替你的前端之路帶來一些啟發與動力！</p>
-                        </div>
-                        <div>
-                            <a  class="button" href="">閱讀內文</a>
-                        </div> 
-                    </div>
-                </div>
+            <div class="heroR">
+                <p class="heroBlog">BLOG</p>
+                <p class="heroDescribe">前端工程師&職涯諮詢師</p>
+            </div>           
            
-        </div><!--AboutSection END-->
+        </div><!--heroEND-->                                                           
+
+        <div class="about">         
+            <div class="aboutImg">
+                <img src="images/About Section.png">
+            </div>
+                              
+            <div class="aboutbox">
+                <time>2024/10/21</time>
+                <div class="abouttitle">
+                     <p class="hashTag">前端開發 x 職涯成長</p>
+                     <a href="#" class="hashTagSP">最新文章</a>
+                </div>                    
+                <h2>自學前端不用怕：從零開始的三大關鍵</h2>
+                <br>
+                <p class="aboutDetail">嗨，我是 Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，
+                     也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」<br>
+                     其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。
+                     希望能替你的前端之路帶來一些啟發與動力！</p>
+                <br>
+                <a class="button" href="#">閱讀內文</a>           
+            </div>               
+        </div><!--AboutSectionEND-->
 
         <div class="search">
-            <input class="searchBar" type="text" placeholder="搜尋您感興趣的文章"> 
-        </div><!--search END-->
-        
+            <input class="searchBar" type="text" placeholder="搜尋您感興趣的文章">
+        </div><!--searchEND-->
         
     <div class="container">
       <div class="card">
         <div class="cardup">
-          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-web-camp/desktop/blog/photo4.png" alt="React入門基礎圖片">
+          <img src="images/photo4.png" alt="React入門基礎圖片">
         </div>
         <div class="carddown">
           <time class="time">2024/10/11</time>
@@ -79,7 +74,7 @@
 
       <div class="card">
         <div class="cardup">
-        <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/blog/photo1.png?raw=true" alt="作品集求職攻略">
+        <img src="images/photo1.png" alt="作品集求職攻略">
         </div>
           <div class="carddown">
           <time class="time">2024/09/07</time>
@@ -98,7 +93,7 @@
     
       <div class="card">
         <div class="cardup">
-        <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/16da9aa899a5190ed2d5bdfe48ae1cc631b95463/2025-web-camp/desktop/blog/photo2.png" alt="CSS設計視覺體驗">
+        <img src="images/photo2.png" alt="CSS設計視覺體驗">
         </div>
           <div class="carddown">
           <time class="time">2024/09/03</time>
@@ -117,7 +112,7 @@
 
       <div class="card">
         <div class="cardup">
-        <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/16da9aa899a5190ed2d5bdfe48ae1cc631b95463/2025-web-camp/desktop/blog/photo6.png" alt="轉職工程師學習心法">
+        <img src="images/photo6.png" alt="轉職工程師學習心法">
         </div>
           <div class="carddown">
           <time>2024/07/09</time>
@@ -136,7 +131,7 @@
 
       <div class="card">
         <div class="cardup">
-        <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/16da9aa899a5190ed2d5bdfe48ae1cc631b95463/2025-web-camp/desktop/blog/photo3.png" alt="工程師求職面試準備">
+        <img src="images/photo3.png" alt="工程師求職面試準備">
         </div>
           <div class="carddown">
           <time class="time">2024/07/08</time>
@@ -156,7 +151,7 @@
 
       <div class="card">
         <div class="cardup">
-        <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/16da9aa899a5190ed2d5bdfe48ae1cc631b95463/2025-web-camp/desktop/blog/photo5.png" alt="Vue3框架學習">
+        <img src="images/photo5.png" alt="Vue3框架學習">
         </div>
           <div class="carddown">
           <time class="time">2024/06/29</time>
@@ -269,38 +264,37 @@
           </div>
         </div>  
       </div>
+    </div><!--containerEND-->
 
-
-    </div><!--container END-->
-        <div class="pages">
-            <a class="page-be" href="#" ><img src="previous.png" alt="上一頁">＜</a>
-            <a class="page" href="#" >1</a>
-            <a class="page" href="#" >2</a>
-            <a class="page" href="#" >3</a>
-            <a class="page" href="#" >4</a>
-            <a class="page" href="#" >5</a>
-            <a class="page" href="#" >...</a>
-            <a class="page-af" href="#" ><img src="next.png" alt="下一頁">＞</a>
-        </div><!--pages END-->
-
+        <div class="pageBar">
+            <a href="#" class="page-be"><img src="images/previous.png" alt="上一頁"></a>
+            <a href="#" class="page">1</a>
+            <a href="#" class="page">2</a>
+            <a href="#" class="page">3</a>
+            <a href="#" class="page">4</a>
+            <a href="#" class="page">5</a>
+            <a href="#" class="page">...</a>
+            <a href="#" class="page-af"><img src="images/next.png" alt="下一頁"></a>
+        </div><!--pagesEND-->
+  
     <div class="footer">
         <div class="contact">
-            <a class="email" href="alysewang@hexschool.com">alysewang@hexschool.com</a>
-        </div>
-        <ul>
+            <a class="email" href="alysewang@hexschool.com">alysewang@hexschool.com</a>        
+        <ul class="socialMlist">
             <li class="socialM"><a href="#"><img src="images/onlyIcon.png" alt="youtubeicon"></a></li>
             <li class="socialM"><a href="#"><img src="images/onlyIcon-1.png" alt="podcasticon"></a></li>
             <li class="socialM"><a href="#"><img src="images/onlyIcon-2.png" alt="faceboolicon"></a></li>
             <li class="socialM"><a href="#"><img src="images/icons8-linkedin.png" alt="linkedinicon"></a></li>
             <li class="socialM"><a href="#"><img src="images/onlyIcon-3.png" alt="instgram"></a></li>
         </ul>
+        </div>
         <div class="copyright">
             <p>© 2025 Alyse Wang. All rights reserved.</p>
         </div>
-    </div> <!--footer END-->
-            
-    
+    </div> <!--footerEND-->
 
-    </div> <!--WRAP END-->
+
+      
+    </div>
 </body>
 </html>
